@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		047AF81726B1A43A004F1C27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AF81626B1A43A004F1C27 /* AppDelegate.swift */; };
 		047AF81926B1A43A004F1C27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AF81826B1A43A004F1C27 /* SceneDelegate.swift */; };
-		047AF81B26B1A43A004F1C27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AF81A26B1A43A004F1C27 /* ViewController.swift */; };
 		047AF81E26B1A43A004F1C27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047AF81C26B1A43A004F1C27 /* Main.storyboard */; };
 		047AF82026B1A43B004F1C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047AF81F26B1A43B004F1C27 /* Assets.xcassets */; };
 		047AF82326B1A43B004F1C27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047AF82126B1A43B004F1C27 /* LaunchScreen.storyboard */; };
+		047AF82B26B1B97C004F1C27 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AF82A26B1B97C004F1C27 /* TabBarViewController.swift */; };
+		047AF82F26B1BAA3004F1C27 /* FullFormOfPersonListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AF82E26B1BAA3004F1C27 /* FullFormOfPersonListTableViewController.swift */; };
+		047AF83126B1BAC3004F1C27 /* ShortFormOfPersonalListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AF83026B1BAC3004F1C27 /* ShortFormOfPersonalListTableViewController.swift */; };
+		047AF83326B1BAF7004F1C27 /* AdditionalDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AF83226B1BAF7004F1C27 /* AdditionalDetailsViewController.swift */; };
+		047AF83926B1BB73004F1C27 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AF83826B1BB73004F1C27 /* Model.swift */; };
+		047AF83E26B1BC31004F1C27 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AF83D26B1BC31004F1C27 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		047AF81326B1A43A004F1C27 /* HW2.7Seneca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW2.7Seneca.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		047AF81626B1A43A004F1C27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		047AF81826B1A43A004F1C27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		047AF81A26B1A43A004F1C27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		047AF81D26B1A43A004F1C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		047AF81F26B1A43B004F1C27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		047AF82226B1A43B004F1C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		047AF82426B1A43B004F1C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047AF82A26B1B97C004F1C27 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		047AF82E26B1BAA3004F1C27 /* FullFormOfPersonListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullFormOfPersonListTableViewController.swift; sourceTree = "<group>"; };
+		047AF83026B1BAC3004F1C27 /* ShortFormOfPersonalListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortFormOfPersonalListTableViewController.swift; sourceTree = "<group>"; };
+		047AF83226B1BAF7004F1C27 /* AdditionalDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalDetailsViewController.swift; sourceTree = "<group>"; };
+		047AF83826B1BB73004F1C27 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		047AF83D26B1BC31004F1C27 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,68 @@
 		047AF81526B1A43A004F1C27 /* HW2.7Seneca */ = {
 			isa = PBXGroup;
 			children = (
-				047AF81626B1A43A004F1C27 /* AppDelegate.swift */,
-				047AF81826B1A43A004F1C27 /* SceneDelegate.swift */,
-				047AF81A26B1A43A004F1C27 /* ViewController.swift */,
-				047AF81C26B1A43A004F1C27 /* Main.storyboard */,
-				047AF81F26B1A43B004F1C27 /* Assets.xcassets */,
-				047AF82126B1A43B004F1C27 /* LaunchScreen.storyboard */,
-				047AF82426B1A43B004F1C27 /* Info.plist */,
+				047AF83426B1BB04004F1C27 /* ViewControllers */,
+				047AF83A26B1BC04004F1C27 /* Models */,
+				047AF83F26B1BC3A004F1C27 /* ServiceLayers */,
+				047AF83526B1BB15004F1C27 /* Storyboards */,
+				047AF83626B1BB34004F1C27 /* Support */,
+				047AF83726B1BB52004F1C27 /* Resources */,
 			);
 			path = HW2.7Seneca;
+			sourceTree = "<group>";
+		};
+		047AF83426B1BB04004F1C27 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				047AF82A26B1B97C004F1C27 /* TabBarViewController.swift */,
+				047AF82E26B1BAA3004F1C27 /* FullFormOfPersonListTableViewController.swift */,
+				047AF83026B1BAC3004F1C27 /* ShortFormOfPersonalListTableViewController.swift */,
+				047AF83226B1BAF7004F1C27 /* AdditionalDetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		047AF83526B1BB15004F1C27 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				047AF81C26B1A43A004F1C27 /* Main.storyboard */,
+				047AF82126B1A43B004F1C27 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		047AF83626B1BB34004F1C27 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				047AF81626B1A43A004F1C27 /* AppDelegate.swift */,
+				047AF81826B1A43A004F1C27 /* SceneDelegate.swift */,
+				047AF82426B1A43B004F1C27 /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		047AF83726B1BB52004F1C27 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				047AF81F26B1A43B004F1C27 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		047AF83A26B1BC04004F1C27 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				047AF83826B1BB73004F1C27 /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		047AF83F26B1BC3A004F1C27 /* ServiceLayers */ = {
+			isa = PBXGroup;
+			children = (
+				047AF83D26B1BC31004F1C27 /* DataManager.swift */,
+			);
+			path = ServiceLayers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +200,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				047AF81B26B1A43A004F1C27 /* ViewController.swift in Sources */,
+				047AF83926B1BB73004F1C27 /* Model.swift in Sources */,
+				047AF83E26B1BC31004F1C27 /* DataManager.swift in Sources */,
 				047AF81726B1A43A004F1C27 /* AppDelegate.swift in Sources */,
+				047AF83126B1BAC3004F1C27 /* ShortFormOfPersonalListTableViewController.swift in Sources */,
+				047AF82B26B1B97C004F1C27 /* TabBarViewController.swift in Sources */,
+				047AF82F26B1BAA3004F1C27 /* FullFormOfPersonListTableViewController.swift in Sources */,
+				047AF83326B1BAF7004F1C27 /* AdditionalDetailsViewController.swift in Sources */,
 				047AF81926B1A43A004F1C27 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,7 +355,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HW2.7Seneca/Info.plist;
+				INFOPLIST_FILE = HW2.7Seneca/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,7 +373,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HW2.7Seneca/Info.plist;
+				INFOPLIST_FILE = HW2.7Seneca/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
