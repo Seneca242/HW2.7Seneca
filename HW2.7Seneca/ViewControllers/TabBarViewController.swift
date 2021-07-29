@@ -14,11 +14,10 @@ class TabBarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        getOtherVC(with: people)
-
+        getOtherVC()
     }
-    
-    private func getOtherVC(with people: [Person]) {
+
+    private func getOtherVC() {
         guard let allOtherVC = viewControllers else { return }
         
         for viewController in allOtherVC {
